@@ -3,6 +3,9 @@ exports.config = {
   port: 4723,
   specs: ['./test/specs/**/*.js'],
   maxInstances: 1,
+  autoCompileOpts: {
+    autoCompile: false,
+  },
   capabilities: [{
     platformName: 'Android',
     'appium:automationName': 'UiAutomator2',
