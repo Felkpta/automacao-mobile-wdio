@@ -1,20 +1,23 @@
 exports.config = {
-  runner: 'local',
-  port: 4723,
-  specs: ['./test/specs/**/*.js'],
-  maxInstances: 1,
-  autoCompileOpts: {
-    autoCompile: false,
-  },
-  capabilities: [{
-    platformName: 'Android',
-    'appium:automationName': 'UiAutomator2',
-    'appium:deviceName': 'Android Emulator',
-    'appium:app': require('path').join(process.cwd(), 'app/native-demo-app.apk'),
-    'appium:autoGrantPermissions': true,
-  }],
-  logLevel: 'info',
-  framework: 'mocha',
-  reporters: ['spec'],
-  mochaOpts: { ui: 'bdd', timeout: 120000 },
-};
+    user: process.env.SAUCE_USERNAME,
+    key: process.env.SAUCE_ACCESS_KEY,
+    services: ['sauce'],
+    specs: [
+        './test/specs/**/*.js'
+    ],
+    maxInstances: 1,
+    capabilities: [{
+        platformName: 'iOS',
+        'appium:deviceName': 'iPhone 14 Simulator',
+        'appium:platformVersion': '16.2',
+        'appium:automationName': 'XCUITest',
+        'appium:app': 'storage:filename=LojaEBAC-sim.app.zip'
+    }],
+    logLevel: 'info',
+    framework: 'mocha',
+    reporters: ['spec'],
+    mochaOpts: {
+        ui: 'bdd',
+        timeout: 60000
+    }
+}
