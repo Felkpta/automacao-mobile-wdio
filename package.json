@@ -12,6 +12,7 @@
     "@wdio/mocha-framework": "^8.0.0",
     "@wdio/sauce-service": "^8.0.0",
     "@wdio/spec-reporter": "^8.0.0",
-    "appium": "^2.0.0"
+    "appium": "^2.0.0",
+    "ts-node": "^10.9.2"
   }
 }
