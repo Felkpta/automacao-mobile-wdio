@@ -1,7 +1,7 @@
 exports.config = {
-    user: 'ebac-student',
-    key: 'dummy-sauce-key-12345',
-    services: [['sauce', { sauceConnect: false }]],
+    runner: 'local',
+    port: 4723,
+    path: '/',
     specs: [
         './test/specs/**/*.js'
     ],
@@ -11,7 +11,7 @@ exports.config = {
         'appium:deviceName': 'iPhone 14 Simulator',
         'appium:platformVersion': '16.2',
         'appium:automationName': 'XCUITest',
-        'appium:app': 'storage:filename=LojaEBAC-sim.app.zip'
+        'appium:app': 'LojaEBAC-sim.app'
     }],
     logLevel: 'info',
     framework: 'mocha',
