@@ -2,6 +2,7 @@
   "name": "automacao-mobile-ios",
   "version": "1.0.0",
   "description": "Suite de testes E2E iOS EBAC Store",
+  "type": "commonjs",
   "scripts": {
     "test": "wdio run ./wdio.conf.js"
   },
