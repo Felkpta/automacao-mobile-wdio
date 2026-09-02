@@ -1,10 +1,7 @@
 exports.config = {
-    autoCompileOpts: {
-        autoCompile: false
-    },
-    user: process.env.SAUCE_USERNAME,
-    key: process.env.SAUCE_ACCESS_KEY,
-    services: ['sauce'],
+    user: 'ebac-student',
+    key: 'dummy-sauce-key-12345',
+    services: [['sauce', { sauceConnect: false }]],
     specs: [
         './test/specs/**/*.js'
     ],
