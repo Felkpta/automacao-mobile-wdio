@@ -1,35 +1,40 @@
-name: Appium Tests on BrowserStack
+name: Mobile Test Automation CI
 
 on:
   push:
-    branches: [ ci, main ]
+    branches: [ "ci", "main" ]
   pull_request:
-    branches: [ ci, main ]
+    branches: [ "ci", "main" ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Configurar Node
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
+          cache: 'npm'
 
-      - name: Instalar dependências
-        run: npm install
+      - name: Instalar Dependências
+        run: npm ci
 
-      - name: Remover ts-node (evita conflito de ES Modules)
-        run: rm -rf node_modules/ts-node
-
-      - name: Baixar o aplicativo
+      - name: Upload do APK para o BrowserStack
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
         run: |
-          mkdir -p app
-          curl -L -o app/native-demo-app.apk https://github.com/webdriverio/native-demo-app/releases/download/v2.2.0/android.wdio.native.app.v2.2.0.apk
+          APP_URL=$(curl -u "$BROWSERSTACK_USERNAME:$BROWSERSTACK_ACCESS_KEY" \
+            -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+            -F "file=@./app/native-demo-app.apk" | jq -r .app_url)
+          echo "BS_APP_URL=$APP_URL" >> $GITHUB_ENV
 
       - name: Rodar testes no BrowserStack
         env:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        run: npx wdio run wdio.bs.conf.js
+        run: npx wdio run wdio.conf.js
