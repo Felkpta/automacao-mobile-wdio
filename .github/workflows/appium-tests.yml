@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
 
       - name: Instalar Dependências
-        run: npm ci
+        run: npm install
 
       - name: Upload do APK para o BrowserStack
         env:
