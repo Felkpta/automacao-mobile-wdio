@@ -20,6 +20,9 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
+      - name: Remover ts-node (evita conflito de ES Modules)
+        run: rm -rf node_modules/ts-node
+
       - name: Baixar o aplicativo
         run: |
           mkdir -p app
