@@ -10,19 +10,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v3
+steps:
+      - uses: actions/checkout@v3
 
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16.20.2'
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Install Dependencies
-      run: npm install
+      - name: Install Dependencies
+        run: npm install
 
-    - name: Run WebdriverIO Tests
-      env:
-        TS_NODE_SKIP_PROJECT: "true"
-        TS_NODE_TRANSPILE_ONLY: "true"
-      run: npm test || true
+      - name: Run Tests on BrowserStack
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        run: npx wdio run wdio.bs.conf.js
