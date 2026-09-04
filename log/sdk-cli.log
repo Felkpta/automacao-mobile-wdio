@@ -1,0 +1,1472 @@
+2026-09-04T12:07:36.035Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk"}],"isNonBstackA11yWDIO":true,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:07:36.041Z CLI info    Should start debug utility: undefined
+2026-09-04T12:07:36.046Z CLI info [testhub:module]   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Starting testhub from 26051:0
+2026-09-04T12:07:36.048Z CLI info   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:07:36.049Z CLI info   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:07:36.137Z CLI info   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:07:36.138Z CLI info   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:07:36.139Z CLI info   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:07:37.109Z CLI info [testhub:module]   [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  startBuild: response=nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n
+2026-09-04T12:07:37.111Z CLI info  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:07:37.172Z CLI info  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:07:37.226Z CLI error [percy:percy]  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:07:37.226Z CLI error  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:07:37.226Z CLI error  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:07:37.227Z CLI info [appautomate:service]  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:07:37.227Z CLI error  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:07:37.227Z CLI error  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:07:37.921Z CLI info  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:07:37.924Z CLI info  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:07:38.103Z CLI info [testhub:module]  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  stopBuild: nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n request={"finished_at":"2026-09-04T12:07:37.921Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:07:38.104Z CLI info  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:07:38.163Z CLI info [TEST REPORTING AND ANALYTICS:module]  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Visit https://automation.browserstack.com/builds/nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:07:38.171Z CLI info [main]  [nkyouninyyejtuq9slgjh6t9as2fwka8xmpthy0n]  [29003cd2-ddbf-4b4a-96f9-63dce57c6893]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:12:47.114Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk"}],"isNonBstackA11yWDIO":true,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:12:47.120Z CLI info    Should start debug utility: undefined
+2026-09-04T12:12:47.126Z CLI info [testhub:module]   [50b8a07c-d356-401a-b214-517ab1c6607b]  Starting testhub from 28384:0
+2026-09-04T12:12:47.127Z CLI info   [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:12:47.129Z CLI info   [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:12:47.234Z CLI info   [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:12:47.235Z CLI info   [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:12:47.236Z CLI info   [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:12:48.014Z CLI info [testhub:module]   [50b8a07c-d356-401a-b214-517ab1c6607b]  startBuild: response=dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq
+2026-09-04T12:12:48.016Z CLI info  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:12:48.074Z CLI info  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:12:48.115Z CLI error [percy:percy]  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:12:48.115Z CLI error  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:12:48.115Z CLI error  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:12:48.116Z CLI info [appautomate:service]  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:12:48.116Z CLI error  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:12:48.116Z CLI error  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:12:48.779Z CLI info  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:12:48.783Z CLI info  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:12:48.965Z CLI info [testhub:module]  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  stopBuild: dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq request={"finished_at":"2026-09-04T12:12:48.779Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:12:48.966Z CLI info  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:12:49.018Z CLI info [TEST REPORTING AND ANALYTICS:module]  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Visit https://automation.browserstack.com/builds/dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:12:59.476Z CLI info [main]  [dpjpxxhnmsyjh0lwydpa1drkttsgcaajahfyk6pq]  [50b8a07c-d356-401a-b214-517ab1c6607b]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:13:56.868Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk"}],"isNonBstackA11yWDIO":true,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:13:56.887Z CLI info    Should start debug utility: undefined
+2026-09-04T12:13:56.897Z CLI info [testhub:module]   [197d4b61-76ac-42b6-802f-9697a4970be7]  Starting testhub from 29157:0
+2026-09-04T12:13:56.899Z CLI info   [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:13:56.906Z CLI info   [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:13:57.043Z CLI info   [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:13:57.044Z CLI info   [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:13:57.045Z CLI info   [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:13:57.579Z CLI info [testhub:module]   [197d4b61-76ac-42b6-802f-9697a4970be7]  startBuild: response=j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd
+2026-09-04T12:13:57.582Z CLI info  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:13:57.684Z CLI info  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:13:57.730Z CLI error [percy:percy]  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:13:57.730Z CLI error  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:13:57.730Z CLI error  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:13:57.730Z CLI info [appautomate:service]  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:13:57.731Z CLI error  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:13:57.731Z CLI error  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:13:58.388Z CLI info  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:13:58.392Z CLI info  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:13:58.544Z CLI info [testhub:module]  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  stopBuild: j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd request={"finished_at":"2026-09-04T12:13:58.388Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:13:58.545Z CLI info  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:13:58.723Z CLI info [TEST REPORTING AND ANALYTICS:module]  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Visit https://automation.browserstack.com/builds/j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:13:58.728Z CLI info [main]  [j7chasxfnirfthvdbgxvuxoay0m1bluptjes7ozd]  [197d4b61-76ac-42b6-802f-9697a4970be7]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:15:48.445Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk"}],"isNonBstackA11yWDIO":true,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:15:48.451Z CLI info    Should start debug utility: undefined
+2026-09-04T12:15:48.457Z CLI info [testhub:module]   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Starting testhub from 30076:0
+2026-09-04T12:15:48.458Z CLI info   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:15:48.460Z CLI info   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:15:48.559Z CLI info   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:15:48.560Z CLI info   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:15:48.560Z CLI info   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:15:49.127Z CLI info [testhub:module]   [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  startBuild: response=egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j
+2026-09-04T12:15:49.131Z CLI info  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:15:49.189Z CLI info  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:15:49.244Z CLI error [percy:percy]  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:15:49.244Z CLI error  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:15:49.244Z CLI error  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:15:49.244Z CLI info [appautomate:service]  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:15:49.245Z CLI error  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:15:49.245Z CLI error  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:15:49.888Z CLI info  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:15:49.891Z CLI info  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:15:49.991Z CLI info [testhub:module]  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  stopBuild: egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j request={"finished_at":"2026-09-04T12:15:49.887Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:15:49.992Z CLI info  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:15:50.049Z CLI info [TEST REPORTING AND ANALYTICS:module]  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Visit https://automation.browserstack.com/builds/egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:15:50.055Z CLI info [main]  [egyckvjgvp6kftsj1lojsi2etwg2w1dij0uz9g1j]  [9dab68be-abbf-4f1b-9e39-05f599bea0b2]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:19:59.865Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:19:59.873Z CLI info    Should start debug utility: undefined
+2026-09-04T12:19:59.882Z CLI info [testhub:module]   [994e0e65-8420-4994-9569-b49995ef3838]  Starting testhub from 31980:0
+2026-09-04T12:19:59.884Z CLI info   [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:19:59.886Z CLI info   [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:20:00.041Z CLI info   [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:20:00.042Z CLI info   [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:20:00.043Z CLI info   [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:20:01.219Z CLI info [testhub:module]   [994e0e65-8420-4994-9569-b49995ef3838]  startBuild: response=rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp
+2026-09-04T12:20:01.221Z CLI info  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:20:01.291Z CLI info  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:20:01.343Z CLI error [percy:percy]  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:20:01.344Z CLI error  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:20:01.344Z CLI error  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:20:01.344Z CLI info [appautomate:service]  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:20:01.344Z CLI error  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:20:01.344Z CLI error  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:20:02.004Z CLI info  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:20:02.009Z CLI info  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:20:02.129Z CLI info [testhub:module]  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  stopBuild: rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp request={"finished_at":"2026-09-04T12:20:02.003Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:20:02.130Z CLI info  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:20:02.185Z CLI info [TEST REPORTING AND ANALYTICS:module]  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Visit https://automation.browserstack.com/builds/rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:20:02.195Z CLI info [main]  [rvvodrrcjoyjrind9eeexzjdfpbvntz9bbvothtp]  [994e0e65-8420-4994-9569-b49995ef3838]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:24:16.738Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:24:16.744Z CLI info    Should start debug utility: undefined
+2026-09-04T12:24:16.749Z CLI info [testhub:module]   [33c070c1-2b07-4ff9-99b2-424979734f8a]  Starting testhub from 33907:0
+2026-09-04T12:24:16.751Z CLI info   [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:24:16.752Z CLI info   [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:24:16.859Z CLI info   [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:24:16.860Z CLI info   [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:24:16.861Z CLI info   [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:24:17.446Z CLI info [testhub:module]   [33c070c1-2b07-4ff9-99b2-424979734f8a]  startBuild: response=8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr
+2026-09-04T12:24:17.448Z CLI info  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:24:17.518Z CLI info  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:24:17.574Z CLI error [percy:percy]  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:24:17.574Z CLI error  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:24:17.574Z CLI error  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:24:17.574Z CLI info [appautomate:service]  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:24:17.575Z CLI error  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:24:17.575Z CLI error  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:24:18.225Z CLI info  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:24:18.228Z CLI info  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:24:18.651Z CLI info [testhub:module]  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  stopBuild: 8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr request={"finished_at":"2026-09-04T12:24:18.224Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:24:18.652Z CLI info  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:24:18.735Z CLI info [TEST REPORTING AND ANALYTICS:module]  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Visit https://automation.browserstack.com/builds/8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:24:18.741Z CLI info [main]  [8wfyn8cvgvg8sjrg0ovvehkwlzsponovvl0u1usr]  [33c070c1-2b07-4ff9-99b2-424979734f8a]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T12:30:41.623Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T12:30:41.629Z CLI info    Should start debug utility: undefined
+2026-09-04T12:30:41.635Z CLI info [testhub:module]   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Starting testhub from 36715:0
+2026-09-04T12:30:41.636Z CLI info   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T12:30:41.638Z CLI info   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T12:30:41.744Z CLI info   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T12:30:41.745Z CLI info   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T12:30:41.745Z CLI info   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T12:30:43.189Z CLI info [testhub:module]   [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  startBuild: response=1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj
+2026-09-04T12:30:43.191Z CLI info  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:30:43.244Z CLI info  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:30:43.295Z CLI error [percy:percy]  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Percy unable to fetch project token: [object Object]
+2026-09-04T12:30:43.295Z CLI error  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T12:30:43.295Z CLI error  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T12:30:43.296Z CLI info [appautomate:service]  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Using app: ./app/native-demo-app.apk
+2026-09-04T12:30:43.296Z CLI error  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T12:30:43.296Z CLI error  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T12:30:43.941Z CLI info  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T12:30:43.944Z CLI info  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T12:30:44.099Z CLI info [testhub:module]  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  stopBuild: 1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj request={"finished_at":"2026-09-04T12:30:43.940Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T12:30:44.101Z CLI info  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T12:30:44.161Z CLI info [TEST REPORTING AND ANALYTICS:module]  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Visit https://automation.browserstack.com/builds/1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj to view build report, insights, and many more debugging information all at one place!
+2026-09-04T12:30:44.762Z CLI info [main]  [1jk3evp3ezjf6lwnllvrjqhjqfvqe62pfh6azewj]  [3c1c6e2d-c563-4446-88fd-4d695f3a5bbf]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:07:37.202Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:07:37.208Z CLI info    Should start debug utility: undefined
+2026-09-04T13:07:37.214Z CLI info [testhub:module]   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Starting testhub from 51812:0
+2026-09-04T13:07:37.215Z CLI info   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:07:37.217Z CLI info   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:07:37.396Z CLI info   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:07:37.397Z CLI info   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:07:37.398Z CLI info   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:07:37.937Z CLI info [testhub:module]   [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  startBuild: response=cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a
+2026-09-04T13:07:37.941Z CLI info  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:07:38.000Z CLI info  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:07:38.038Z CLI error [percy:percy]  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:07:38.038Z CLI error  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:07:38.038Z CLI error  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:07:38.039Z CLI info [appautomate:service]  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:07:38.039Z CLI error  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:07:38.039Z CLI error  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:07:38.683Z CLI info  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:07:38.687Z CLI info  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:07:38.824Z CLI info [testhub:module]  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  stopBuild: cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a request={"finished_at":"2026-09-04T13:07:38.683Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:07:38.825Z CLI info  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:07:38.948Z CLI info [TEST REPORTING AND ANALYTICS:module]  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Visit https://automation.browserstack.com/builds/cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:07:38.956Z CLI info [main]  [cfpjonpsx0ydwnyedjo5l3cgaih7j09amfgqfu4a]  [4e0b7910-7a1d-4dfc-a1ba-4e49c8cff72d]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:12:55.058Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:12:55.064Z CLI info    Should start debug utility: undefined
+2026-09-04T13:12:55.074Z CLI info [testhub:module]   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Starting testhub from 54240:0
+2026-09-04T13:12:55.076Z CLI info   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:12:55.078Z CLI info   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:12:55.258Z CLI info   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:12:55.259Z CLI info   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:12:55.259Z CLI info   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:12:56.015Z CLI info [testhub:module]   [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  startBuild: response=qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim
+2026-09-04T13:12:56.017Z CLI info  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:12:56.073Z CLI info  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:12:56.121Z CLI error [percy:percy]  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:12:56.121Z CLI error  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:12:56.121Z CLI error  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:12:56.122Z CLI info [appautomate:service]  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:12:56.122Z CLI error  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:12:56.122Z CLI error  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:12:56.711Z CLI info  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:12:56.715Z CLI info  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:12:56.832Z CLI info [testhub:module]  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  stopBuild: qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim request={"finished_at":"2026-09-04T13:12:56.710Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:12:56.833Z CLI info  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:12:56.892Z CLI info [TEST REPORTING AND ANALYTICS:module]  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Visit https://automation.browserstack.com/builds/qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:12:56.901Z CLI info [main]  [qgq4g6hba66rj8sn4hufvq5r2vhddsgzfd1whrim]  [1c488aea-aa9c-4779-8c0d-13e0f1e571e9]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:15:53.766Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:15:53.783Z CLI info    Should start debug utility: undefined
+2026-09-04T13:15:53.789Z CLI info [testhub:module]   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Starting testhub from 56006:0
+2026-09-04T13:15:53.790Z CLI info   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:15:53.792Z CLI info   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:15:53.883Z CLI info   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:15:53.884Z CLI info   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:15:53.884Z CLI info   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:15:54.463Z CLI info [testhub:module]   [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  startBuild: response=mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy
+2026-09-04T13:15:54.466Z CLI info  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:15:54.525Z CLI info  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:15:54.571Z CLI error [percy:percy]  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:15:54.571Z CLI error  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:15:54.571Z CLI error  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:15:54.572Z CLI info [appautomate:service]  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:15:54.572Z CLI error  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:15:54.572Z CLI error  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:15:55.260Z CLI info  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:15:55.264Z CLI info  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:15:55.382Z CLI info [testhub:module]  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  stopBuild: mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy request={"finished_at":"2026-09-04T13:15:55.260Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:15:55.383Z CLI info  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:15:55.437Z CLI info [TEST REPORTING AND ANALYTICS:module]  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Visit https://automation.browserstack.com/builds/mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:15:55.446Z CLI info [main]  [mpqkxoyco08zihoiel8zsbsxwiurgcui2kkpbkxy]  [3d24056f-1479-4cad-bf11-0de9deb6c0a2]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:17:11.045Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:17:11.051Z CLI info    Should start debug utility: undefined
+2026-09-04T13:17:11.056Z CLI info [testhub:module]   [397365c6-25cc-4cd0-9a47-b62f727af020]  Starting testhub from 56696:0
+2026-09-04T13:17:11.058Z CLI info   [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:17:11.059Z CLI info   [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:17:11.181Z CLI info   [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:17:11.181Z CLI info   [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:17:11.182Z CLI info   [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:17:11.837Z CLI info [testhub:module]   [397365c6-25cc-4cd0-9a47-b62f727af020]  startBuild: response=ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe
+2026-09-04T13:17:11.839Z CLI info  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:17:11.901Z CLI info  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:17:11.956Z CLI error [percy:percy]  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:17:11.956Z CLI error  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:17:11.956Z CLI error  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:17:11.957Z CLI info [appautomate:service]  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:17:11.957Z CLI error  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:17:11.957Z CLI error  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:17:12.587Z CLI info  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:17:12.591Z CLI info  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:17:12.687Z CLI info [testhub:module]  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  stopBuild: ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe request={"finished_at":"2026-09-04T13:17:12.586Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:17:12.688Z CLI info  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:17:12.747Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Visit https://automation.browserstack.com/builds/ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:17:12.990Z CLI info [main]  [ud9jmb4gi0vugrcsxmkfdush8urdjekhhpdhgyfe]  [397365c6-25cc-4cd0-9a47-b62f727af020]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:19:38.421Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:19:38.427Z CLI info    Should start debug utility: undefined
+2026-09-04T13:19:38.430Z CLI info [testhub:module]   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Starting testhub from 58046:0
+2026-09-04T13:19:38.431Z CLI info   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:19:38.433Z CLI info   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:19:38.535Z CLI info   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:19:38.535Z CLI info   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:19:38.536Z CLI info   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:19:39.403Z CLI info [testhub:module]   [8a866cf4-eabf-494a-8811-6a55840bbb5c]  startBuild: response=yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo
+2026-09-04T13:19:39.405Z CLI info  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:19:39.466Z CLI info  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:19:39.520Z CLI error [percy:percy]  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:19:39.520Z CLI error  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:19:39.521Z CLI error  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:19:39.521Z CLI info [appautomate:service]  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:19:39.521Z CLI error  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:19:39.521Z CLI error  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:19:40.148Z CLI info  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:19:40.154Z CLI info  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:19:40.262Z CLI info [testhub:module]  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  stopBuild: yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo request={"finished_at":"2026-09-04T13:19:40.148Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:19:40.263Z CLI info  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:19:40.313Z CLI info [TEST REPORTING AND ANALYTICS:module]  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Visit https://automation.browserstack.com/builds/yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:19:40.318Z CLI info [main]  [yntd9whx9w43r7km1f6er1rthecmddkki8mxc2jo]  [8a866cf4-eabf-494a-8811-6a55840bbb5c]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:22:39.339Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"app":"./app/native-demo-app.apk","testObservability":true,"accessibility":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:22:39.347Z CLI info    Should start debug utility: undefined
+2026-09-04T13:22:39.351Z CLI info [testhub:module]   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Starting testhub from 60076:0
+2026-09-04T13:22:39.352Z CLI info   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:22:39.354Z CLI info   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:22:39.466Z CLI info   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:22:39.467Z CLI info   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:22:39.468Z CLI info   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:22:40.033Z CLI info [testhub:module]   [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  startBuild: response=qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq
+2026-09-04T13:22:40.035Z CLI info  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:22:40.099Z CLI info  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:22:40.152Z CLI error [percy:percy]  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Percy unable to fetch project token: [object Object]
+2026-09-04T13:22:40.152Z CLI error  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-09-04T13:22:40.152Z CLI error  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-09-04T13:22:40.152Z CLI info [appautomate:service]  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Using app: ./app/native-demo-app.apk
+2026-09-04T13:22:40.153Z CLI error  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  error invoking callback for eventName onStart: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+2026-09-04T13:22:40.153Z CLI error  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Error: [Invalid app path] app path /workspaces/automacao-mobile-wdio/app/native-demo-app.apk is not correct, Provide correct path to app under test
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AppAutomateModule.onStart (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async HookRegistry.invoke (/snapshot/browserstack-binary/cli/dist/index.js)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+    at async Promise.allSettled (index 0)
+    at async /snapshot/browserstack-binary/cli/dist/index.js
+2026-09-04T13:22:40.844Z CLI info  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:22:40.848Z CLI info  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:22:40.992Z CLI info [testhub:module]  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  stopBuild: qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq request={"finished_at":"2026-09-04T13:22:40.843Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:22:40.994Z CLI info  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:22:41.056Z CLI info [TEST REPORTING AND ANALYTICS:module]  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Visit https://automation.browserstack.com/builds/qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:22:41.061Z CLI info [main]  [qrkwwiuiefqzpezixyq0vmu3x2zday4tiiehp9wq]  [d0318002-bafd-44fa-9a4c-66bfe4e1a9e4]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:25:23.142Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:25:23.155Z CLI info    Should start debug utility: undefined
+2026-09-04T13:25:23.159Z CLI info [testhub:module]   [d421e322-491d-4400-babd-1d2f1c982d41]  Starting testhub from 61497:0
+2026-09-04T13:25:23.161Z CLI info   [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:25:23.162Z CLI info   [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:25:23.285Z CLI info   [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:25:23.286Z CLI info   [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:25:23.287Z CLI info   [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:25:24.113Z CLI info [testhub:module]   [d421e322-491d-4400-babd-1d2f1c982d41]  startBuild: response=2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe
+2026-09-04T13:25:24.115Z CLI info  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:25:24.839Z CLI info  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:25:24.844Z CLI info  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:25:24.984Z CLI info [testhub:module]  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  stopBuild: 2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe request={"finished_at":"2026-09-04T13:25:24.839Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:25:24.985Z CLI info  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:25:25.051Z CLI info [TEST REPORTING AND ANALYTICS:module]  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  Visit https://automation.browserstack.com/builds/2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:25:25.056Z CLI info [main]  [2fsguwrtjdzolhvrcltkxvwj5jmqw1xzckygpxpe]  [d421e322-491d-4400-babd-1d2f1c982d41]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:27:26.633Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"./app/native-demo-app.apk","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:27:26.646Z CLI info    Should start debug utility: undefined
+2026-09-04T13:27:26.649Z CLI info [testhub:module]   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  Starting testhub from 62662:0
+2026-09-04T13:27:26.650Z CLI info   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:27:26.652Z CLI info   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:27:26.765Z CLI info   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:27:26.765Z CLI info   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:27:26.766Z CLI info   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:27:27.368Z CLI info [testhub:module]   [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  startBuild: response=oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3
+2026-09-04T13:27:27.371Z CLI info  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:27:28.580Z CLI info [sdk:service]  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:27:30.020Z CLI info  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:27:30.024Z CLI info  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:27:30.137Z CLI info [testhub:module]  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  stopBuild: oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3 request={"finished_at":"2026-09-04T13:27:30.020Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:27:30.141Z CLI info  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:27:30.195Z CLI info [TEST REPORTING AND ANALYTICS:module]  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  Visit https://automation.browserstack.com/builds/oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3 to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:27:30.200Z CLI info [main]  [oo05voh9i3pnrnl0jqqvo3rf2exq8fpa6c3lply3]  [3c4be235-e7ca-4d6e-8c30-e5f1138dd173]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:30:02.369Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://SEU_APP_URL_AQUI","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:30:02.379Z CLI info    Should start debug utility: undefined
+2026-09-04T13:30:02.383Z CLI info [testhub:module]   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  Starting testhub from 64075:0
+2026-09-04T13:30:02.384Z CLI info   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:30:02.386Z CLI info   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:30:02.509Z CLI info   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:30:02.510Z CLI info   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:30:02.511Z CLI info   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:30:03.529Z CLI info [testhub:module]   [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  startBuild: response=yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4
+2026-09-04T13:30:03.531Z CLI info  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:30:04.763Z CLI info [sdk:service]  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:30:06.413Z CLI info  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:30:06.417Z CLI info  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:30:06.514Z CLI info [testhub:module]  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  stopBuild: yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4 request={"finished_at":"2026-09-04T13:30:06.412Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:30:06.515Z CLI info  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:30:06.576Z CLI info [TEST REPORTING AND ANALYTICS:module]  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  Visit https://automation.browserstack.com/builds/yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4 to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:30:06.580Z CLI info [main]  [yxxf2hxwlpfd7tzsbc4nlft9asfo3m5radx6c6y4]  [3bd921cf-48b7-46d4-bf65-2b8a226cf666]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:33:07.035Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://SEU_APP_URL_AQUI","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:33:07.045Z CLI info    Should start debug utility: undefined
+2026-09-04T13:33:07.048Z CLI info [testhub:module]   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  Starting testhub from 65609:0
+2026-09-04T13:33:07.050Z CLI info   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:33:07.051Z CLI info   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:33:07.193Z CLI info   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:33:07.194Z CLI info   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:33:07.194Z CLI info   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:33:08.373Z CLI info [testhub:module]   [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  startBuild: response=iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea
+2026-09-04T13:33:08.375Z CLI info  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:33:09.401Z CLI info [sdk:service]  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:33:10.435Z CLI info  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:33:10.439Z CLI info  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:33:10.575Z CLI info [testhub:module]  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  stopBuild: iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea request={"finished_at":"2026-09-04T13:33:10.435Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:33:10.576Z CLI info  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:33:10.622Z CLI info [TEST REPORTING AND ANALYTICS:module]  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  Visit https://automation.browserstack.com/builds/iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:33:10.626Z CLI info [main]  [iwqbem1mcq3ibqhgsfpgo9oiqfjdoei6x6ujawea]  [f4ba4c9c-41ab-4f4e-97e0-9a2a2487272e]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:35:01.939Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://b815d4490a45cd1d10b59a4c2fa389e1583fbfb2","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:35:01.947Z CLI info    Should start debug utility: undefined
+2026-09-04T13:35:01.950Z CLI info [testhub:module]   [aadcd1bc-4a14-4733-888d-75395a19c452]  Starting testhub from 66625:0
+2026-09-04T13:35:01.951Z CLI info   [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:35:01.953Z CLI info   [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:35:02.097Z CLI info   [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:35:02.098Z CLI info   [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:35:02.099Z CLI info   [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:35:02.794Z CLI info [testhub:module]   [aadcd1bc-4a14-4733-888d-75395a19c452]  startBuild: response=8uunflfdojk21gotmfyuwatzlrkfog7demshcazx
+2026-09-04T13:35:02.797Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:35:03.853Z CLI info [sdk:service]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:35:22.988Z CLI info [testhub:request-queue-handler]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '53d922f0-175d-451d-82bd-35c9b8719711',
+    integrations: { browserstack: [Object] }
+  }
+} to 66625:0 (target=/api/v2/builds/8uunflfdojk21gotmfyuwatzlrkfog7demshcazx/batch)
+2026-09-04T13:35:22.991Z CLI info [testhub:request-queue-handler]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '53d922f0-175d-451d-82bd-35c9b8719711',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-09-04T13:35:22.956Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 66625:0 (target=/api/v2/builds/8uunflfdojk21gotmfyuwatzlrkfog7demshcazx/batch)
+2026-09-04T13:35:24.799Z CLI info [testhub:request-queue-handler]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '53d922f0-175d-451d-82bd-35c9b8719711',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '12bb952f4dd8c6c6e2a18ed731177477b9bd370e',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#5' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Google Pixel 6',
+              chromedriverPorts: [ [ 18155, 18165 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8205,
+              bundleID: 'com.wdiodemoapp',
+              bundleId: 'com.wdiodemoapp',
+              skipServerInstallation: true,
+              udid: '26121FDF6002DK',
+              appPackage: 'com.wdiodemoapp',
+              appActivity: 'com.wdiodemoapp.MainActivity',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#5' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '26121FDF6002DK',
+            chromedriverPorts: [ [ 18155, 18165 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8205,
+            bundleID: 'com.wdiodemoapp',
+            bundleId: 'com.wdiodemoapp',
+            skipServerInstallation: true,
+            udid: '26121FDF6002DK',
+            appPackage: 'com.wdiodemoapp',
+            appActivity: 'com.wdiodemoapp.MainActivity',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '26121FDF6002DK',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2400',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 6',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 124,
+            viewportRect: { left: 0, top: 124, width: 1080, height: 2116 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '53d922f0-175d-451d-82bd-35c9b8719711',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-09-04T13:35:22.956Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 66625:0
+2026-09-04T13:35:24.800Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:35:33.625Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"8.50.0","test_logs":[],"test_hooks_finished":{"INIT_TEST":[],"TEST":[{"key":"TEST","hook_id":"","hook_result":"failed","event_started_at":"2026-09-04T13:35:22.957Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","event_ended_at":"2026-09-04T13:35:33.618Z"}],"LOG_REPORT":[]},"test_hooks_started":{"INIT_TEST":[{"key":"INIT_TEST","hook_id":"","hook_result":"pending","event_started_at":"2026-09-04T13:35:22.954Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js"}],"TEST":[],"LOG_REPORT":[]},"test_uuid":"53d922f0-175d-451d-82bd-35c9b8719711","test_result":"failed","test_hook_last_started":"TEST","test_id":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_name":"deve logar com sucesso usando credenciais válidas","test_code":"async () => {\r\n        await LoginPage.login('teste@email.com', 'senha123');\r\n        await expect(LoginPage.successMessage).toBeDisplayed();\r\n    }","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","test_scope":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_scopes":["Fluxo de Login"],"test_started_at":"2026-09-04T13:35:22.956Z","automate_session_name":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_failure":[{"backtrace":["Can't call click on element with selector \"~login\" because element wasn't found","Error: Can't call click on element with selector \"~login\" because element wasn't found\n    at async LoginPage.login (file:///workspaces/automacao-mobile-wdio/test/pageobjects/login.page.js:11:9)\n    at async Context.<anonymous> (file:///workspaces/automacao-mobile-wdio/test/specs/login.spec.js:5:9)"]}],"test_failure_reason":"Can't call click on element with selector \"~login\" because element wasn't found","test_failure_type":"UnhandledError","test_ended_at":"2026-09-04T13:35:33.618Z","test_hook_last_finished":"TEST","automate_session_status":"failed","automate_session_reason":"Can't call click on element with selector \"~login\" because element wasn't found","test_deferred":true,"logs":[]}
+2026-09-04T13:35:33.628Z CLI info [testhub:request-queue-handler]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '53d922f0-175d-451d-82bd-35c9b8719711',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'failed',
+    duration_in_ms: 10662,
+    started_at: '2026-09-04T13:35:22.956Z',
+    finished_at: '2026-09-04T13:35:33.618Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: `Can't call click on element with selector "~login" because element wasn't found`,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [ '' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 66625:0 (target=/api/v2/builds/8uunflfdojk21gotmfyuwatzlrkfog7demshcazx/batch)
+2026-09-04T13:35:34.333Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:35:34.340Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:35:34.435Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:35:34.569Z CLI info [testhub:module]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  stopBuild: 8uunflfdojk21gotmfyuwatzlrkfog7demshcazx request={"finished_at":"2026-09-04T13:35:34.332Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:35:34.571Z CLI info  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:35:34.637Z CLI info [TEST REPORTING AND ANALYTICS:module]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Visit https://automation.browserstack.com/builds/8uunflfdojk21gotmfyuwatzlrkfog7demshcazx to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:35:34.643Z CLI info [main]  [8uunflfdojk21gotmfyuwatzlrkfog7demshcazx]  [aadcd1bc-4a14-4733-888d-75395a19c452]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:39:06.149Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://b815d4490a45cd1d10b59a4c2fa389e1583fbfb2","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:39:06.159Z CLI info    Should start debug utility: undefined
+2026-09-04T13:39:06.162Z CLI info [testhub:module]   [bb3b759e-0568-4562-bc44-89171d7ee964]  Starting testhub from 68642:0
+2026-09-04T13:39:06.164Z CLI info   [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:39:06.166Z CLI info   [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:39:06.315Z CLI info   [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:39:06.315Z CLI info   [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:39:06.316Z CLI info   [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:39:07.283Z CLI info [testhub:module]   [bb3b759e-0568-4562-bc44-89171d7ee964]  startBuild: response=wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7
+2026-09-04T13:39:07.285Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:39:08.320Z CLI info [sdk:service]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:39:25.757Z CLI info [testhub:request-queue-handler]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+    integrations: { browserstack: [Object] }
+  }
+} to 68642:0 (target=/api/v2/builds/wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7/batch)
+2026-09-04T13:39:25.759Z CLI info [testhub:request-queue-handler]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-09-04T13:39:25.732Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 68642:0 (target=/api/v2/builds/wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7/batch)
+2026-09-04T13:39:27.287Z CLI info [testhub:request-queue-handler]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '27242959d1a0796bd63bf1131d50e991e7a56fa2',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#6' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Google Pixel 6',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8200,
+              bundleID: 'com.wdiodemoapp',
+              bundleId: 'com.wdiodemoapp',
+              skipServerInstallation: true,
+              udid: '26101FDF600843',
+              appPackage: 'com.wdiodemoapp',
+              appActivity: 'com.wdiodemoapp.MainActivity',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#6' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '26101FDF600843',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8200,
+            bundleID: 'com.wdiodemoapp',
+            bundleId: 'com.wdiodemoapp',
+            skipServerInstallation: true,
+            udid: '26101FDF600843',
+            appPackage: 'com.wdiodemoapp',
+            appActivity: 'com.wdiodemoapp.MainActivity',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '26101FDF600843',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2400',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 6',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 124,
+            viewportRect: { left: 0, top: 124, width: 1080, height: 2116 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-09-04T13:39:25.732Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 68642:0
+2026-09-04T13:39:27.288Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:39:36.792Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"8.50.0","test_logs":[],"test_hooks_finished":{"INIT_TEST":[],"TEST":[{"key":"TEST","hook_id":"","hook_result":"failed","event_started_at":"2026-09-04T13:39:25.733Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","event_ended_at":"2026-09-04T13:39:36.785Z"}],"LOG_REPORT":[]},"test_hooks_started":{"INIT_TEST":[{"key":"INIT_TEST","hook_id":"","hook_result":"pending","event_started_at":"2026-09-04T13:39:25.729Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js"}],"TEST":[],"LOG_REPORT":[]},"test_uuid":"1eb9c45c-4a74-43d0-aeb1-145b422fca67","test_result":"failed","test_hook_last_started":"TEST","test_id":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_name":"deve logar com sucesso usando credenciais válidas","test_code":"async () => {\r\n        await LoginPage.login('teste@email.com', 'senha123');\r\n        await expect(LoginPage.successMessage).toBeDisplayed();\r\n    }","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","test_scope":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_scopes":["Fluxo de Login"],"test_started_at":"2026-09-04T13:39:25.732Z","automate_session_name":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_failure":[{"backtrace":["element (\"~login-screen\") still not displayed after 10000ms","Error: element (\"~login-screen\") still not displayed after 10000ms\n    at async LoginPage.login (file:///workspaces/automacao-mobile-wdio/test/pageobjects/login.page.js:12:9)\n    at async Context.<anonymous> (file:///workspaces/automacao-mobile-wdio/test/specs/login.spec.js:5:9)"]}],"test_failure_reason":"element (\"~login-screen\") still not displayed after 10000ms","test_failure_type":"UnhandledError","test_ended_at":"2026-09-04T13:39:36.784Z","test_hook_last_finished":"TEST","automate_session_status":"failed","automate_session_reason":"element (\"~login-screen\") still not displayed after 10000ms","test_deferred":true,"logs":[]}
+2026-09-04T13:39:36.794Z CLI info [testhub:request-queue-handler]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'failed',
+    duration_in_ms: 11052,
+    started_at: '2026-09-04T13:39:25.732Z',
+    finished_at: '2026-09-04T13:39:36.784Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'element ("~login-screen") still not displayed after 10000ms',
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [ '' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 68642:0 (target=/api/v2/builds/wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7/batch)
+2026-09-04T13:39:37.287Z CLI info [testhub:request-queue-handler]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '1eb9c45c-4a74-43d0-aeb1-145b422fca67',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'failed',
+      duration_in_ms: 11052,
+      started_at: '2026-09-04T13:39:25.732Z',
+      finished_at: '2026-09-04T13:39:36.784Z',
+      failure: [
+        {
+          backtrace: [
+            'element ("~login-screen") still not displayed after 10000ms',
+            'Error: element ("~login-screen") still not displayed after 10000ms\n' +
+              '    at async LoginPage.login (file:///workspaces/automacao-mobile-wdio/test/pageobjects/login.page.js:12:9)\n' +
+              '    at async Context.<anonymous> (file:///workspaces/automacao-mobile-wdio/test/specs/login.spec.js:5:9)'
+          ]
+        }
+      ],
+      failure_type: 'UnhandledError',
+      failure_reason: 'element ("~login-screen") still not displayed after 10000ms',
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [ '' ],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 68642:0
+2026-09-04T13:39:37.288Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:39:37.565Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:39:37.572Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:39:37.655Z CLI info [testhub:module]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  stopBuild: wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7 request={"finished_at":"2026-09-04T13:39:37.565Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:39:37.656Z CLI info  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:39:37.718Z CLI info [TEST REPORTING AND ANALYTICS:module]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Visit https://automation.browserstack.com/builds/wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7 to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:39:37.723Z CLI info [main]  [wdzyewdloenemea58jo5k8yfgzmgwthbo02x7ia7]  [bb3b759e-0568-4562-bc44-89171d7ee964]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:41:07.465Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://b815d4490a45cd1d10b59a4c2fa389e1583fbfb2","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:41:07.477Z CLI info    Should start debug utility: undefined
+2026-09-04T13:41:07.481Z CLI info [testhub:module]   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Starting testhub from 69778:0
+2026-09-04T13:41:07.483Z CLI info   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:41:07.485Z CLI info   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:41:07.575Z CLI info   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:41:07.575Z CLI info   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:41:07.576Z CLI info   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:41:08.297Z CLI info [testhub:module]   [45dbb078-e95f-4e06-a7a1-52e984cb701b]  startBuild: response=qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs
+2026-09-04T13:41:08.300Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:41:09.374Z CLI info [sdk:service]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:41:28.203Z CLI info [testhub:request-queue-handler]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '031a0277-2da9-418d-8905-2455a2ea89d3',
+    integrations: { browserstack: [Object] }
+  }
+} to 69778:0 (target=/api/v2/builds/qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs/batch)
+2026-09-04T13:41:28.205Z CLI info [testhub:request-queue-handler]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '031a0277-2da9-418d-8905-2455a2ea89d3',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-09-04T13:41:28.174Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 69778:0 (target=/api/v2/builds/qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs/batch)
+2026-09-04T13:41:28.306Z CLI info [testhub:request-queue-handler]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '031a0277-2da9-418d-8905-2455a2ea89d3',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '6bb5c1ad1ec32a3b49989561a6a0d39eef57444d',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#7' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Google Pixel 6',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8200,
+              bundleID: 'com.wdiodemoapp',
+              bundleId: 'com.wdiodemoapp',
+              skipServerInstallation: true,
+              udid: '26121FDF60010X',
+              appPackage: 'com.wdiodemoapp',
+              appActivity: 'com.wdiodemoapp.MainActivity',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#7' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '26121FDF60010X',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8200,
+            bundleID: 'com.wdiodemoapp',
+            bundleId: 'com.wdiodemoapp',
+            skipServerInstallation: true,
+            udid: '26121FDF60010X',
+            appPackage: 'com.wdiodemoapp',
+            appActivity: 'com.wdiodemoapp.MainActivity',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '26121FDF60010X',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2400',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 6',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 124,
+            viewportRect: { left: 0, top: 124, width: 1080, height: 2116 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '031a0277-2da9-418d-8905-2455a2ea89d3',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-09-04T13:41:28.174Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 69778:0
+2026-09-04T13:41:28.307Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:41:39.299Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"8.50.0","test_logs":[],"test_hooks_finished":{"INIT_TEST":[],"TEST":[{"key":"TEST","hook_id":"","hook_result":"failed","event_started_at":"2026-09-04T13:41:28.177Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","event_ended_at":"2026-09-04T13:41:39.293Z"}],"LOG_REPORT":[]},"test_hooks_started":{"INIT_TEST":[{"key":"INIT_TEST","hook_id":"","hook_result":"pending","event_started_at":"2026-09-04T13:41:28.170Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js"}],"TEST":[],"LOG_REPORT":[]},"test_uuid":"031a0277-2da9-418d-8905-2455a2ea89d3","test_result":"failed","test_hook_last_started":"TEST","test_id":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_name":"deve logar com sucesso usando credenciais válidas","test_code":"async () => {\r\n        await LoginPage.login('teste@email.com', 'senha123');\r\n        await expect(LoginPage.successMessage).toBeDisplayed();\r\n    }","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","test_scope":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_scopes":["Fluxo de Login"],"test_started_at":"2026-09-04T13:41:28.174Z","automate_session_name":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_failure":[{"backtrace":["element (\"~login-screen\") still not displayed after 10000ms","Error: element (\"~login-screen\") still not displayed after 10000ms\n    at async LoginPage.login (file:///workspaces/automacao-mobile-wdio/test/pageobjects/login.page.js:12:9)\n    at async Context.<anonymous> (file:///workspaces/automacao-mobile-wdio/test/specs/login.spec.js:5:9)"]}],"test_failure_reason":"element (\"~login-screen\") still not displayed after 10000ms","test_failure_type":"UnhandledError","test_ended_at":"2026-09-04T13:41:39.293Z","test_hook_last_finished":"TEST","automate_session_status":"failed","automate_session_reason":"element (\"~login-screen\") still not displayed after 10000ms","test_deferred":true,"logs":[]}
+2026-09-04T13:41:39.303Z CLI info [testhub:request-queue-handler]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '031a0277-2da9-418d-8905-2455a2ea89d3',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'failed',
+    duration_in_ms: 11119,
+    started_at: '2026-09-04T13:41:28.174Z',
+    finished_at: '2026-09-04T13:41:39.293Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'element ("~login-screen") still not displayed after 10000ms',
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [ '' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 69778:0 (target=/api/v2/builds/qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs/batch)
+2026-09-04T13:41:39.951Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:41:39.956Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:41:40.056Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:41:40.168Z CLI info [testhub:module]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  stopBuild: qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs request={"finished_at":"2026-09-04T13:41:39.950Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:41:40.170Z CLI info  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:41:40.226Z CLI info [TEST REPORTING AND ANALYTICS:module]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Visit https://automation.browserstack.com/builds/qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:41:40.230Z CLI info [main]  [qewrdfxd7ahf8scm0hdkdk5onynts34ypzosujgs]  [45dbb078-e95f-4e06-a7a1-52e984cb701b]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-09-04T13:43:13.770Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Google Pixel 6","appium:automationName":"UiAutomator2","appium:app":"bs://b815d4490a45cd1d10b59a4c2fa389e1583fbfb2","projectName":"Automacao Mobile WDIO","buildName":"browserstack-build-ci","sessionName":"Execution Test","debug":true,"networkLogs":true,"wdioService":"8.50.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-09-04T13:43:13.781Z CLI info    Should start debug utility: undefined
+2026-09-04T13:43:13.785Z CLI info [testhub:module]   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Starting testhub from 70956:0
+2026-09-04T13:43:13.787Z CLI info   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-04T13:43:13.789Z CLI info   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-04T13:43:13.930Z CLI info   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-09-04T13:43:13.932Z CLI info   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-09-04T13:43:13.934Z CLI info   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-04T13:43:14.532Z CLI info [testhub:module]   [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  startBuild: response=zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz
+2026-09-04T13:43:14.543Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:43:16.149Z CLI info [sdk:service]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Driver initialized as primary driver: platformIndex=0
+2026-09-04T13:43:32.987Z CLI info [testhub:request-queue-handler]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+    integrations: { browserstack: [Object] }
+  }
+} to 70956:0 (target=/api/v2/builds/zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz/batch)
+2026-09-04T13:43:32.990Z CLI info [testhub:request-queue-handler]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-09-04T13:43:32.953Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 70956:0 (target=/api/v2/builds/zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz/batch)
+2026-09-04T13:43:34.544Z CLI info [testhub:request-queue-handler]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: 'b2b7684971bb65cb21820f2fa580252fc89399ae',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#8' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Google Pixel 6',
+              chromedriverPorts: [ [ 18155, 18165 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8205,
+              bundleID: 'com.wdiodemoapp',
+              bundleId: 'com.wdiodemoapp',
+              skipServerInstallation: true,
+              udid: '26111FDF60078W',
+              appPackage: 'com.wdiodemoapp',
+              appActivity: 'com.wdiodemoapp.MainActivity',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'codespaces-f4ea40', buildIdentifier: '#8' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '26111FDF60078W',
+            chromedriverPorts: [ [ 18155, 18165 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8205,
+            bundleID: 'com.wdiodemoapp',
+            bundleId: 'com.wdiodemoapp',
+            skipServerInstallation: true,
+            udid: '26111FDF60078W',
+            appPackage: 'com.wdiodemoapp',
+            appActivity: 'com.wdiodemoapp.MainActivity',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '26111FDF60078W',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2400',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 6',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 124,
+            viewportRect: { left: 0, top: 124, width: 1080, height: 2116 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-09-04T13:43:32.953Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 70956:0
+2026-09-04T13:43:34.544Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:43:39.825Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"8.50.0","test_logs":[],"test_hooks_finished":{"INIT_TEST":[],"TEST":[{"key":"TEST","hook_id":"","hook_result":"passed","event_started_at":"2026-09-04T13:43:32.954Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","event_ended_at":"2026-09-04T13:43:39.815Z"}],"LOG_REPORT":[]},"test_hooks_started":{"INIT_TEST":[{"key":"INIT_TEST","hook_id":"","hook_result":"pending","event_started_at":"2026-09-04T13:43:32.951Z","hook_logs":[],"hook_name":"deve logar com sucesso usando credenciais válidas","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js"}],"TEST":[],"LOG_REPORT":[]},"test_uuid":"4b7a5c52-7c26-4b13-a660-aaebe4296edf","test_result":"passed","test_hook_last_started":"TEST","test_id":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_name":"deve logar com sucesso usando credenciais válidas","test_code":"async () => {\r\n        await LoginPage.login('teste@email.com', 'senha123');\r\n        await expect(LoginPage.successMessage).toBeDisplayed();\r\n    }","test_file_path":"test/specs/login.spec.js","test_location":"test/specs/login.spec.js","test_scope":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_scopes":["Fluxo de Login"],"test_started_at":"2026-09-04T13:43:32.953Z","automate_session_name":"Fluxo de Login - deve logar com sucesso usando credenciais válidas","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-09-04T13:43:39.815Z","test_hook_last_finished":"TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-09-04T13:43:39.827Z CLI info [testhub:request-queue-handler]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+    name: 'deve logar com sucesso usando credenciais válidas',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+        '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'deve logar com sucesso usando credenciais válidas',
+    scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+    scopes: [ 'Fluxo de Login' ],
+    file_name: 'test/specs/login.spec.js',
+    vc_filepath: 'test/specs/login.spec.js',
+    location: 'test/specs/login.spec.js',
+    result: 'passed',
+    duration_in_ms: 6862,
+    started_at: '2026-09-04T13:43:32.953Z',
+    finished_at: '2026-09-04T13:43:39.815Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [ '' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 70956:0 (target=/api/v2/builds/zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz/batch)
+2026-09-04T13:43:40.544Z CLI info [testhub:request-queue-handler]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '4b7a5c52-7c26-4b13-a660-aaebe4296edf',
+      name: 'deve logar com sucesso usando credenciais válidas',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          "        await LoginPage.login('teste@email.com', 'senha123');\r\n" +
+          '        await expect(LoginPage.successMessage).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'deve logar com sucesso usando credenciais válidas',
+      scope: 'Fluxo de Login - deve logar com sucesso usando credenciais válidas',
+      scopes: [ 'Fluxo de Login' ],
+      file_name: 'test/specs/login.spec.js',
+      vc_filepath: 'test/specs/login.spec.js',
+      location: 'test/specs/login.spec.js',
+      result: 'passed',
+      duration_in_ms: 6862,
+      started_at: '2026-09-04T13:43:32.953Z',
+      finished_at: '2026-09-04T13:43:39.815Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [ '' ],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 70956:0
+2026-09-04T13:43:40.545Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-09-04T13:43:40.907Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-09-04T13:43:40.911Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-04T13:43:40.998Z CLI info [testhub:module]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  stopBuild: zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz request={"finished_at":"2026-09-04T13:43:40.906Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-09-04T13:43:40.998Z CLI info  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-04T13:43:41.056Z CLI info [TEST REPORTING AND ANALYTICS:module]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Visit https://automation.browserstack.com/builds/zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz to view build report, insights, and many more debugging information all at one place!
+2026-09-04T13:43:41.060Z CLI info [main]  [zug4hc2skstwq9hgvdubr0rbnvhvt5veowtbwvkz]  [fd243622-57fe-4483-9f6f-0cc9fd08a3fc]  Received graceful signal termination (SIGTERM), performing cleanup

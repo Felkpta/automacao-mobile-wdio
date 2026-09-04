@@ -1,5 +1,5 @@
 class LoginPage {
-    get tabButtonLogin() { return $('~login'); }
+    get tabButtonLogin() { return $('~Login'); }
     get loginScreen() { return $('~login-screen'); }
     get loginContainerButton() { return $('~button-login-container'); }
     get inputEmail() { return $('~input-email'); }
@@ -9,7 +9,7 @@ class LoginPage {
 
     async login(email, password) {
         await this.tabButtonLogin.click();
-        await this.loginScreen.waitForDisplayed();
+        await this.inputEmail.waitForDisplayed(); // Aguarda o campo de e-mail estar visível
         await this.loginContainerButton.click();
         await this.inputEmail.setValue(email);
         await this.inputPassword.setValue(password);

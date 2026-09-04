@@ -1,20 +1,51 @@
-import { config as baseConfig } from './wdio.conf.js';
-
 export const config = {
-    ...baseConfig,
-    user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY,
-    services: [
-        ['browserstack', {
-            app: './app/native-demo-app.apk',
-            testObservability: true
-        }]
+    // Credenciais de acesso do BrowserStack (variáveis de ambiente com fallback)
+    user: process.env.BROWSERSTACK_USERNAME || 'cruzeiro_ckxpR6',
+    key: process.env.BROWSERSTACK_ACCESS_KEY || 'NuGQhyPbgpzZfWHhpgyM',
+
+    // Caminho para os arquivos de teste
+    specs: [
+        './test/specs/**/*.js'
     ],
+    exclude: [],
+
+    maxInstances: 1,
+
+    // Integração nativa com a nuvem do BrowserStack
+    services: ['browserstack'],
+
+    // Configuração do dispositivo de testes
     capabilities: [{
-        platformName: 'android',
+        platformName: 'Android',
         'appium:platformVersion': '12.0',
         'appium:deviceName': 'Google Pixel 6',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': './app/native-demo-app.apk'
-    }]
+        
+        // Prioriza a variável de ambiente BS_APP_URL.
+        // Substitua 'bs://SEU_APP_URL_AQUI' pela hash gerada no comando de upload caso não use variáveis de ambiente.
+        'appium:app': process.env.BS_APP_URL || 'bs://SEU_APP_URL_AQUI',
+        
+        'bstack:options': {
+            projectName: 'Automacao Mobile WDIO',
+            buildName: 'browserstack-build-ci',
+            sessionName: 'Execution Test',
+            debug: true,
+            networkLogs: true
+        }
+    }],
+
+    // Configurações do runner do WebdriverIO
+    logLevel: 'info',
+    bail: 0,
+    waitforTimeout: 10000,
+    connectionRetryTimeout: 120000,
+    connectionRetryCount: 3,
+
+    // Framework de testes e timeouts
+    framework: 'mocha',
+    reporters: ['spec'],
+    mochaOpts: {
+        ui: 'bdd',
+        timeout: 60000
+    }
 };

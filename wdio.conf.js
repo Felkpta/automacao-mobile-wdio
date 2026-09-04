@@ -1,4 +1,11 @@
+process.execArgv = [];
+delete process.env.NODE_OPTIONS;
+
 export const config = {
+    autoCompileOpts: {
+        autoCompile: false
+    },
+    execArgv: [],
     user: process.env.BROWSERSTACK_USERNAME,
     key: process.env.BROWSERSTACK_ACCESS_KEY,
     
