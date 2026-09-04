@@ -1,40 +1,28 @@
-name: Mobile Test Automation CI
+name: iOS Automation Tests
 
 on:
   push:
-    branches: [ "ci", "main" ]
+    branches: [ main, ci ]
   pull_request:
-    branches: [ "ci", "main" ]
+    branches: [ main, ci ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do Repositório
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: '18'
 
-      - name: Instalar Dependências
+      - name: Install Dependencies
         run: npm install
 
-      - name: Upload do APK para o BrowserStack
+      - name: Run Tests on BrowserStack
         env:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        run: |
-          APP_URL=$(curl -u "$BROWSERSTACK_USERNAME:$BROWSERSTACK_ACCESS_KEY" \
-            -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
-            -F "file=@./app/native-demo-app.apk" | jq -r .app_url)
-          echo "BS_APP_URL=$APP_URL" >> $GITHUB_ENV
-
-      - name: Rodar testes no BrowserStack
-        env:
-          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        run: npx wdio run wdio.conf.js
+        run: npm run test:bs
