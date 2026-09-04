@@ -2,15 +2,15 @@ name: iOS Automation Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, ci ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, ci ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
-steps:
+    steps:
       - uses: actions/checkout@v3
 
       - name: Use Node.js
@@ -25,4 +25,4 @@ steps:
         env:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        run: npx wdio run wdio.bs.conf.js
+        run: npm run test:bs
