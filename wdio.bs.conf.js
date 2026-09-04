@@ -21,9 +21,8 @@ export const config = {
         'appium:deviceName': 'Google Pixel 6',
         'appium:automationName': 'UiAutomator2',
         
-        // Prioriza a variável de ambiente BS_APP_URL.
-        // Substitua 'bs://SEU_APP_URL_AQUI' pela hash gerada no comando de upload caso não use variáveis de ambiente.
-        'appium:app': process.env.BS_APP_URL || 'bs://SEU_APP_URL_AQUI',
+        
+        'appium:app': process.env.BS_APP_URL || 'bs://b815d4490a45cd1d10b59a4c2fa389e1583fbfb2',
         
         'bstack:options': {
             projectName: 'Automacao Mobile WDIO',
